@@ -1,0 +1,76 @@
+body{
+  margin: 0 auto;
+  background-color: #44ACCE;
+}
+
+header{
+  background: #3A92AF;
+  height: 60px;
+  border: 1px solid black;
+}
+
+.blueLogo{
+  width: 80px;
+  display:block;
+  margin:auto;
+  padding: 20px;
+}
+
+.iconBoard {
+  background-color:#89BECF;
+  color: white;
+  padding: 7px;
+  border-radius: 7px;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+  position: absolute;
+  top: 0;
+  left: 5px;
+}
+#buscador {
+  border: none;
+  background-color: #89BECF;
+  color: #fff;
+  border-radius: 7px;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+  position: absolute;
+  top: 15px;
+  left: 130px;
+}
+
+.rightElements{
+  display: inline-block;
+  float: right;
+
+}
+
+.fa-plus, .fa-info-circle, .fa-bell-o {
+  background-color: #89BECF;
+  color: white;
+  padding: 5px;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  margin-left:20px;
+}
+
+.vale{
+  width: 30px;
+  border-radius: 50%;
+  margin-top: 5px;
+}
+
+.info{
+  color: #fff;
+  font: arial;
+  margin-left: 10px;
+  font-size:20px;
+}
+
+#newList{
+  background-color: #89BECF;
+  border: 1px solid red;
+  width: 400px;
+  height: 30px;
+}
