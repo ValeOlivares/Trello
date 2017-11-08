@@ -2,39 +2,34 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Trello</title>
+    <title>trello</title>
+    <link rel="stylesheet" href="assets/font/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="stylesheet" href="assets/font/css/font-awesome.css">
   </head>
   <body>
     <header>
-      <img class="blueLogo"src="assets/img/trello-logo-blue.png" alt="">
-      <p class="iconBoard"><i class="fa fa-trello" aria-hidden="true"></i> Tableros</p>
-      <textarea class="txt" id="buscador" placeholder=""></textarea>
+      <img class="trello" src="assets/img/trello-logo-blue.png" alt="">
+      <div class="leftElements">
+        <a class="tablero"><span><i class="fa fa-trello" aria-hidden="true"></i></span> Tableros</a>
+        <a class="search"><span><i class="fa fa-search" aria-hidden="true"></i></span></a>
+      </div>
       <div class="rightElements">
-        <i class="fa fa-plus" aria-hidden="true"></i>
-        <i class="fa fa-info-circle" aria-hidden="true"></i>
-        <i class="fa fa-bell-o" aria-hidden="true"></i>
-        <img class="vale"src="assets/img/vale.jpg" alt="">
+
       </div>
     </header>
 
-    <section class="info">
-      <a>Tablero</a>
-      <a>Reto de Código</a>
-    </section>
+    <section class="contenedor">
+        <div class="caja1">
+          <textarea class="txt" id="comentario" placeholder="Añadir una lista..."></textarea>
+          <button type="button" id="boton" onclick="add()">Añadir</button>
+        </div>
+        <div id="caja2">
+        </div>
 
-    <section id="List">
-      <div id="addList">
-        <textarea class="txt" id="text"placeholder="Añadir una lista"></textarea>
-         <button type="button" id="boton" onclick="add()"> Añadir</button>
-      </div>
-      <div id="newList">
-
-      </div>
     </section>
 
     <script type="text/javascript" src="assets/js/app.js">
+
     </script>
   </body>
 </html>

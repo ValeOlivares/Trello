@@ -1,17 +1,14 @@
-//crear variables para comentario, boton
-var texto = document.getElementById("text");
-var botton = document.getElementById ("boton");
-
-
 function add(){
-  var nuevoTexto = text.value; //rescatando el valor
-  document.getElementById("text").value=""; // borrar comentario después de hacer click
+  var texto = document.getElementById("comentario");  
+  var nuevoTexto = texto.value; //rescatando el valor
+  document.getElementById("comentario").value=""; // borrar comentario después de hacer click
 //crear nuevos elementos
   var nContenedor = document.createElement("div");
-  var nCaja= document.getElementById("newList");
+  var nCaja= document.getElementById("caja2");
   var parrafo = document.createElement("p");
   var nodoText = document.createTextNode(nuevoTexto);
   //agregar elementos ya creados
   parrafo.appendChild(nodoText);
   nContenedor.appendChild(parrafo);
   nCaja.appendChild(nContenedor);
+}

@@ -1,76 +1,68 @@
 body{
-  margin: 0 auto;
+  margin: 0;
   background-color: #44ACCE;
 }
 
-header{
-  background: #3A92AF;
-  height: 60px;
-  border: 1px solid black;
+header {
+  background-color: #3A92AF;
+  color: #fff;
+  height:50px;
 }
 
-.blueLogo{
-  width: 80px;
-  display:block;
-  margin:auto;
-  padding: 20px;
-}
-
-.iconBoard {
+.leftElements{
   background-color:#89BECF;
   color: white;
-  padding: 7px;
   border-radius: 7px;
   -moz-border-radius: 7px;
   -webkit-border-radius: 7px;
-  position: absolute;
-  top: 0;
-  left: 5px;
-}
-#buscador {
-  border: none;
-  background-color: #89BECF;
-  color: #fff;
-  border-radius: 7px;
-  -moz-border-radius: 7px;
-  -webkit-border-radius: 7px;
-  position: absolute;
-  top: 15px;
-  left: 130px;
-}
-
-.rightElements{
-  display: inline-block;
-  float: right;
-
-}
-
-.fa-plus, .fa-info-circle, .fa-bell-o {
-  background-color: #89BECF;
-  color: white;
-  padding: 5px;
-  border-radius: 2px;
-  -moz-border-radius: 2px;
-  -webkit-border-radius: 2px;
-  margin-left:20px;
-}
-
-.vale{
-  width: 30px;
-  border-radius: 50%;
-  margin-top: 5px;
-}
-
-.info{
-  color: #fff;
-  font: arial;
-  margin-left: 10px;
   font-size:20px;
+  display: inline-flex;
+
 }
 
-#newList{
-  background-color: #89BECF;
-  border: 1px solid red;
-  width: 400px;
-  height: 30px;
+.search{
+  width: 100px;
+}
+
+.trello {
+  width: 100px;
+  display:block;
+  margin:auto;
+}
+
+.contenedor{
+  display: flex;
+}
+
+.caja1{
+  background-color: #fff;
+  margin:50px;
+  border-radius:10px;
+  -moz-border-radius:10px;
+  -webkit-border-radius: 10px;
+  opacity: 0.7;
+  padding-left: 20px;
+}
+
+#comentario{
+  padding: 10px;
+  display: block;
+  border: none;
+}
+
+#boton{
+	background-color: #58FAAC;
+	padding: 5px 6px;
+	display: block;
+}
+
+#caja2 div {
+  background-color: #fff;
+  margin:50px;
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  opacity: 0.7;
+  padding-left: 20px;
+
 }
