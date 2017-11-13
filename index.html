@@ -10,23 +10,25 @@
     <header>
       <img class="trello" src="assets/img/trello-logo-blue.png" alt="">
       <div class="leftElements">
-        <a class="tablero"><span><i class="fa fa-trello" aria-hidden="true"></i></span> Tableros</a>
+        <a class="Tablero"><span><i class="fa fa-trello" aria-hidden="true"></i></span> Tableros</a>
         <a class="search"><span><i class="fa fa-search" aria-hidden="true"></i></span></a>
       </div>
-      <div class="rightElements">
 
+      <div class="rightElements">
+        <ul>
+          <li><i class="fa fa-plus" aria-hidden="true"></i></li>
+          <li><i class="fa fa-info-circle" aria-hidden="true"></i></li>
+          <li><i class="fa fa-bell" aria-hidden="true"></i></li>
+        </ul>
       </div>
     </header>
 
-    <section class="contenedor">
-        <div class="caja1">
-          <textarea class="txt" id="comentario" placeholder="Añadir una lista..."></textarea>
-          <button type="button" id="boton" onclick="add()">Añadir</button>
-        </div>
-        <div id="caja2">
-        </div>
 
-    </section>
+    <div id="container">
+      <button type="button" name="button" id="btn" onclick="trello()">Añadir una lista...</button>
+    </div>
+
+    <div id="contiene"></div>
 
     <script type="text/javascript" src="assets/js/app.js">
 
